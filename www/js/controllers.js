@@ -6,7 +6,7 @@ angular.module('starter.controllers', [])
  $scope.chats = Chats.all();
 
 
-    $scope.modal= function(chat){
+    $scope.modal= function(){
         $ionicModal.fromTemplateUrl('templates/ionicModalView.html', function($ionicModal) 
         {
             $scope.ionicModal = $ionicModal; 
